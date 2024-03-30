@@ -1,0 +1,31 @@
+body {
+    background: #e1f4fd !important;
+}
+
+h1 h2 h3 h4 h5 {
+    margin-bottom: 0px !important;
+}
+
+.title {
+    color: #021f2e;
+}
+
+.action-btn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.task-card {
+    transition: 0.5s;
+}
+
+.task-card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width:576px) {
+    #task-holder {
+        width: 90% !important;
+    }
+}
