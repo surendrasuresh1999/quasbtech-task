@@ -2,18 +2,23 @@ body {
     background: #e1f4fd !important;
 }
 
-h1 h2 h3 h4 h5 {
-    margin-bottom: 0px !important;
-}
-
 .title {
     color: #021f2e;
+}
+
+.no-data-img {
+    height: 250px;
+    width: 250px;
 }
 
 .action-btn {
     background-color: transparent;
     outline: none;
     border: none;
+}
+
+.title-container {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .task-card {
